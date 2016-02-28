@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0-*",
+    "description": "planesNet5 Console Application",
+    "authors": [ "Mark" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.1-beta-23516",
+    "System.Collections": "4.0.11-beta-23516",
+    "System.Console": "4.0.0-beta-23516",
+    "System.Linq": "4.0.1-beta-23516",
+    "System.Threading": "4.0.11-beta-23516"
+  },
+
+    "commands": {
+        "planesNet5": "planesNet5"
+    },
+
+    "frameworks": {
+        "dnxcore50": {
+          "dependencies": {
+            "System.Net.Sockets": "4.1.0-beta-23516"
+          }
+        }
+    }
+}
